@@ -1,0 +1,1442 @@
+[
+    {
+           "id":"1c blue ribbon 355ml",
+           "name":"blue ribbon 355ml",
+           "num":1,
+           "category":"1 canette 16",
+           "product":"beer",
+           "price":77,
+           "taxe":true
+    },
+    {
+           "id":"1c busch ice 355ml",
+           "name":"busch ice 355ml",
+           "num":1,
+           "category":"1 canette 16",
+           "product":"beer",
+           "price":77,
+           "taxe":true
+    },
+    {
+           "id":"1c busch 355ml",
+           "name":"busch ice 355ml",
+           "num":1,
+           "category":"1 canette 16",
+           "product":"beer",
+           "price":77,
+           "taxe":true
+    },
+    {
+           "id":"1c bleue dry 355ml",
+           "name":"bleue dry 355ml",
+           "num":1,
+           "category":"1 canette 16",
+           "product":"beer",
+           "price":77,
+           "taxe":true
+    },
+    {
+           "id":"1c black label 355ml",
+           "name":"black label 355ml",
+           "num":1,
+           "category":"1 canette 16",
+           "product":"beer",
+           "price":1.69,
+           "taxe":true
+    },
+    {
+           "id":"1c cors light 355ml",
+           "name":"cors light 355ml",
+           "num":1,
+           "category":"1 canette 16",
+           "product":"beer",
+           "price":71,
+           "taxe":true
+    },
+    {
+           "id":"1c molson dry 355ml",
+           "name":"molson dry 355ml",
+           "num":1,
+           "category":"1 canette 16",
+           "product":"beer",
+           "price":71,
+           "taxe":true
+    },
+    {
+           "id":"1c export 355ml",
+           "name":"export 355ml",
+           "num":1,
+           "category":"1 canette 16",
+           "product":"beer",
+           "price":71,
+           "taxe":true
+    },
+    {
+           "id":"1c budlight 355ml",
+           "name":"budlight 355ml",
+           "num":1,
+           "category":"1 canette 16",
+           "product":"beer",
+           "price":71,
+           "taxe":true
+    },
+    {
+           "id":"1c bleue 355ml",
+           "name":"bleue 355ml",
+           "num":1,
+           "category":"1 canette 16",
+           "product":"beer",
+           "price":71,
+           "taxe":true
+     },
+     {
+           "id":"1c budweiser 355ml",
+           "name":"budweiser 355ml",
+           "num":1,
+           "category":"1 canette 16",
+           "product":"beer",
+           "price":71,
+           "taxe":true
+        },
+        {
+           "id":"1c budweiser sans alcool 355ml",
+           "name":"budweiser sans alcool 355ml",
+           "num":1,
+           "category":"1 canette 16",
+           "product":"beer",
+           "price":71,
+           "taxe":true
+        },
+        {
+            "id":"1c corona 355ml",
+            "name":"corona 355ml",
+            "num":1,
+            "category":"1 canette 16",
+            "product":"beer",
+            "price":2.79,
+            "taxe":true
+         },
+         {
+            "id":"1c heneiken 355ml",
+            "name":"heneiken 355ml",
+            "num":1,
+            "category":"1 canette 16",
+            "product":"beer",
+            "price":2.79,
+            "taxe":true
+         },
+         {
+            "id":"1c blue ribbon 473ml",
+            "name":"blue ribbon 473ml",
+            "num":1,
+            "category":"1 canette 18",
+            "product":"beer",
+            "price":2.99,
+            "taxe":true
+         },
+         {
+            "id":"1c budweiser 473ml",
+            "name":"budweiser 473ml",
+            "num":1,
+            "category":"1 canette 18",
+            "product":"beer",
+            "price":3.69,
+            "taxe":true
+         },
+         {
+            "id":"1c budlight 473ml",
+            "name":"budlight 473ml",
+            "num":1,
+            "category":"1 canette 18",
+            "product":"beer",
+            "price":3.69,
+            "taxe":true
+         },
+         {
+            "id":"1c stella artois 473ml",
+            "name":"stella artois 473ml",
+            "num":1,
+            "category":"1 canette 18",
+            "product":"beer",
+            "price":3.99,
+            "taxe":true
+         },
+         {
+            "id":"1c hoegaarden 473ml",
+            "name":"stella artoise 473ml",
+            "num":1,
+            "category":"1 canette 18",
+            "product":"beer",
+            "price":3.99,
+            "taxe":true
+         },
+         {
+            "id":"1c corona 473ml",
+            "name":"corona 473ml",
+            "num":1,
+            "category":"1 canette 18",
+            "product":"beer",
+            "price":3.99,
+            "taxe":true
+         },
+         {
+            "id":"1c ipa 473ml",
+            "name":"ipa 473ml",
+            "num":1,
+            "category":"1 canette 18",
+            "product":"beer",
+            "price":3.99,
+            "taxe":true
+         },
+         {
+            "id":"1c lacroix 473ml",
+            "name":"lacroix 473ml",
+            "num":1,
+            "category":"1 canette 18",
+            "product":"beer",
+            "price":4.49,
+            "taxe":true
+         },
+         {
+            "id":"1c heneiken 500ml",
+            "name":"heneiken 500ml",
+            "num":1,
+            "category":"1 canette 18",
+            "product":"beer",
+            "price":4.99,
+            "taxe":true
+         },
+         {
+            "id":"1c grolsch 500ml",
+            "name":"grolsch 500ml",
+            "num":1,
+            "category":"1 canette 18",
+            "product":"beer",
+            "price":2.99,
+            "taxe":true
+         },
+         {
+            "id":"1c beach day every day 473ml",
+            "name":"beach day every day 473ml",
+            "num":1,
+            "category":"1 canette 18",
+            "product":"beer",
+            "price":3.99,
+            "taxe":true
+         },
+         {
+            "id":"1c smirnoff 473ml",
+            "name":"smirnoff 473ml",
+            "num":1,
+            "category":"1 canette 18",
+            "product":"beer",
+            "price":3.99,
+            "taxe":true
+         },
+         {
+            "id":"1c fizzy 473ml",
+            "name":"fizzy 473ml",
+            "num":1,
+            "category":"1 canette 18",
+            "product":"beer",
+            "price":4.39,
+            "taxe":true
+         },
+         {
+            "id":"1c bleue dry 740ml",
+            "name":"bleue dry 740ml",
+            "num":1,
+            "category":"1 canette 18",
+            "product":"beer",
+            "price":81,
+            "taxe":true
+         },
+         {
+            "id":"2c bleue dry 740ml",
+            "name":"bleue dry 740ml",
+            "num":2,
+            "category":"2 canette 18",
+            "product":"beer",
+            "price":7.99,
+            "taxe":true
+         },
+         {
+            "id":"1c budweiser 740ml",
+            "name":"budweiser 740ml",
+            "num":1,
+            "category":"1 canette 18",
+            "product":"beer",
+            "price":83,
+            "taxe":true
+         },
+         {
+            "id":"2c budweiser 740ml",
+            "name":"budweiser 740ml",
+            "num":2,
+            "category":"2 canette 18",
+            "product":"beer",
+            "price":8.99,
+            "taxe":true
+         },
+         {
+            "id":"1c busch 740ml",
+            "name":"busch 740ml",
+            "num":1,
+            "category":"1 canette 18",
+            "product":"beer",
+            "price":4.39,
+            "taxe":true
+         },
+         {
+            "id":"2c busch 740ml",
+            "name":"busch 740ml",
+            "num":1,
+            "category":"2 canette 18",
+            "product":"beer",
+            "price":7.99,
+            "taxe":true
+         },
+        
+         
+         
+         {
+            "id":"4c blue ribbon 473ml",
+            "name":"blue ribbon 473ml",
+            "num":4,
+            "category":"4 canette 18",
+            "product":"beer",
+            "price":10.99,
+            "taxe":true
+         },
+         {
+            "id":"4c stella artois 473ml",
+            "name":"stella artois 473ml",
+            "num":4,
+            "category":"4 canette 18",
+            "product":"beer",
+            "price":13.99,
+            "taxe":true
+         },
+         {
+            "id":"4c corona 473ml",
+            "name":"corona 473ml",
+            "num":4,
+            "category":"4 canette 18",
+            "product":"beer",
+            "price":13.99,
+            "taxe":true
+         },
+         {
+            "id":"4c hoegaarden 473ml",
+            "name":"corona 473ml",
+            "num":4,
+            "category":"4 canette 18",
+            "product":"beer",
+            "price":13.99,
+            "taxe":true
+         },
+         {
+            "id":"4c ipa 473ml",
+            "name":"ipa 473ml",
+            "num":4,
+            "category":"4 canette 18",
+            "product":"beer",
+            "price":14.49,
+            "taxe":true
+         },
+         {
+            "id":"4c brise du lac archibald 473ml",
+            "name":"brise du lac archibald 473ml",
+            "num":4,
+            "category":"4 canette 18",
+            "product":"beer",
+            "price":11.99,
+            "taxe":true
+         },
+         {
+            "id":"4c désirée archibald 473ml",
+            "name":"désirée archibald 473ml",
+            "num":4,
+            "category":"4 canette 18",
+            "product":"beer",
+            "price":11.99,
+            "taxe":true
+         },
+         {
+            "id":"4c joufflue archibald 473ml",
+            "name":"joufflue archibald 473ml",
+            "num":4,
+            "category":"4 canette 18",
+            "product":"beer",
+            "price":11.99,
+            "taxe":true
+         },
+         {
+            "id":"4c labatt 50 473ml",
+            "name":"labatt 50 473ml",
+            "num":4,
+            "category":"4 canette 18",
+            "product":"beer",
+            "price":10.99,
+            "taxe":true
+         },
+         {
+            "id":"4c lacroix 355ml",
+            "name":"lacroix 355ml",
+            "num":4,
+            "category":"4 canette 18",
+            "product":"beer",
+            "price":11.99,
+            "taxe":true
+         },
+         {
+            "id":"4c lacroix chai",
+            "name":"lacroix chai",
+            "num":4,
+            "category":"4 canette 16",
+            "product":"beer",
+            "price":14.49,
+            "taxe":true
+         },
+         {
+            "id":"4c original organic lager 473ml",
+            "name":"original organic lager 473ml",
+            "num":4,
+            "category":"4 canette 18",
+            "product":"beer",
+            "price":14.49,
+            "taxe":true
+         },
+         {
+            "id":"4c kirin ichiban 473ml",
+            "name":"kirin ichiban 473ml",
+            "num":4,
+            "category":"4 canette 18",
+            "product":"beer",
+            "price":11.99,
+            "taxe":true
+         },
+         {
+            "id":"4c blanche de chambly unibroue 473ml",
+            "name":"blanche de chambly unibroue 473ml",
+            "num":4,
+            "category":"4 canette 18",
+            "product":"beer",
+            "price":13.99,
+            "taxe":true
+         },
+         {
+            "id":"4c hipl de rivière trouble unibroue 473ml",
+            "name":"hipl de rivière trouble unibroue 473ml",
+            "num":4,
+            "category":"4 canette 18",
+            "product":"beer",
+            "price":14.99,
+            "taxe":true
+         },
+         {
+            "id":"4c maudite unibroue 473ml",
+            "name":"maudite unibroue 473ml",
+            "num":4,
+            "category":"4 canette 18",
+            "product":"beer",
+            "price":14.99,
+            "taxe":true
+         },
+         {
+            "id":"4c la fin du monde unibroue 473ml",
+            "name":"la fin du monde unibroue 473ml",
+            "num":4,
+            "category":"4 canette 18",
+            "product":"beer",
+            "price":15.49,
+            "taxe":true
+         },
+         {
+            "id":"4c goose island ipa 473ml",
+            "name":"goose island ipa 473ml",
+            "num":4,
+            "category":"4 canette 18",
+            "product":"beer",
+            "price":14.49,
+            "taxe":true
+         },
+         {
+            "id":"4c guinness 473ml",
+            "name":"guinness 473ml",
+            "num":4,
+            "category":"4 canette 18",
+            "product":"beer",
+            "price":13.99,
+            "taxe":true
+         },
+         {
+            "id":"4c organic stout cobblestone 473ml",
+            "name":"organic stout cobblestone 473ml",
+            "num":4,
+            "category":"4 canette 18",
+            "product":"beer",
+            "price":12.99,
+            "taxe":true
+         },
+         {
+            "id":"4c teasy 473ml",
+            "name":"teasy 473ml",
+            "num":4,
+            "category":"4 canette 18",
+            "product":"beer",
+            "price":12.99,
+            "taxe":true
+         },
+         
+         
+         {
+            "id":"12c blue ribbon 355ml",
+            "name":"blue ribbon 355ml",
+            "num":12,
+            "category":"12 canette 16",
+            "product":"beer",
+            "price":79,
+            "taxe":true
+         },
+         {
+            "id":"12c busch 355ml",
+            "name":"busch 355ml",
+            "num":12,
+            "category":"12 canette 16",
+            "product":"beer",
+            "price":79,
+            "taxe":true
+         },
+         {
+            "id":"12c bleue dry 355ml",
+            "name":"bleue dry 355ml",
+            "num":12,
+            "category":"12 canette 16",
+            "product":"beer",
+            "price":79,
+            "taxe":true
+         },
+         {
+            "id":"12c bleue 355ml",
+            "name":"bleue 355ml",
+            "num":12,
+            "category":"12 canette 16",
+            "product":"beer",
+            "price":73,
+            "taxe":true
+         },
+         {
+            "id":"12c budlight 355ml",
+            "name":"budlight 355ml",
+            "num":12,
+            "category":"12 canette 16",
+            "product":"beer",
+            "price":73,
+            "taxe":true
+         },
+         {
+            "id":"12c budlight seltzer 355ml",
+            "name":"budlight seltzer 355ml",
+            "num":12,
+            "category":"12 canette 16",
+            "product":"beer",
+            "price":73,
+            "taxe":true
+         },
+         {
+            "id":"12c budlight lime 355ml",
+            "name":"budlight lime 355ml",
+            "num":12,
+            "category":"12 canette 16",
+            "product":"beer",
+            "price":23.99,
+            "taxe":true
+         },
+         {
+            "id":"12c ultra michelob 355ml",
+            "name":"ultra michelob 355ml",
+            "num":12,
+            "category":"12 canette 16",
+            "product":"beer",
+            "price":22.99,
+            "taxe":true
+         },
+         {
+            "id":"12c stella artois 355ml",
+            "name":"stella artois 355ml",
+            "num":12,
+            "category":"12 canette 16",
+            "product":"beer",
+            "price":24.99,
+            "taxe":true
+         },
+         {
+            "id":"12c corona 355ml",
+            "name":"corona 355ml",
+            "num":12,
+            "category":"12 canette 16",
+            "product":"beer",
+            "price":24.99,
+            "taxe":true
+         },
+         {
+            "id":"12c black label 355ml",
+            "name":"black label 355ml",
+            "num":12,
+            "category":"12 canette 16",
+            "product":"beer",
+            "price":17.49,
+            "taxe":true
+         },
+         {
+            "id":"12c budweiser 355ml",
+            "name":"budweiser 355ml",
+            "num":12,
+            "category":"12 canette 16",
+            "product":"beer",
+            "price":20.99,
+            "taxe":true
+         },
+         {
+            "id":"12c budweiser zero 355ml",
+            "name":"budweiser zero 355ml",
+            "num":12,
+            "category":"12 canette 16",
+            "product":"beer",
+            "price":17.99,
+            "taxe":true
+         },
+         {
+            "id":"12c labatt 50 355ml",
+            "name":"labatt 50 355ml",
+            "num":12,
+            "category":"12 canette 16",
+            "product":"beer",
+            "price":17.99,
+            "taxe":true
+         },
+         {
+            "id":"12c alexander keith 355ml",
+            "name":"alexander keith 355ml",
+            "num":12,
+            "category":"12 canette 16",
+            "product":"beer",
+            "price":19.99,
+            "taxe":true
+         },
+         {
+            "id":"12c rolling rock 355ml",
+            "name":"rolling rock 355ml",
+            "num":12,
+            "category":"12 canette 16",
+            "product":"beer",
+            "price":16.99,
+            "taxe":true
+         },
+         {
+            "id":"12c molson dry 355ml",
+            "name":"molson dry 355ml",
+            "num":12,
+            "category":"12 canette 16",
+            "product":"beer",
+            "price":20.99,
+            "taxe":true
+         },
+         {
+            "id":"12c molson common bond 355ml",
+            "name":"molson common bond 355ml",
+            "num":12,
+            "category":"12 canette 16",
+            "product":"beer",
+            "price":21.99,
+            "taxe":true
+         },
+         {
+            "id":"12c molson canadian 355ml",
+            "name":"molson canadian 355ml",
+            "num":12,
+            "category":"12 canette 16",
+            "product":"beer",
+            "price":20.99,
+            "taxe":true
+         },
+         {
+            "id":"12c cors light 355ml",
+            "name":"molson canadian 355ml",
+            "num":12,
+            "category":"12 canette 16",
+            "product":"beer",
+            "price":20.99,
+            "taxe":true
+         },
+         {
+            "id":"12c cors original 355ml",
+            "name":"cors original 355ml",
+            "num":12,
+            "category":"12 canette 16",
+            "product":"beer",
+            "price":21.99,
+            "taxe":true
+         },
+         {
+            "id":"12c beach day every day 355ml",
+            "name":"beach day every day 355ml",
+            "num":12,
+            "category":"12 canette 16",
+            "product":"beer",
+            "price":22.99,
+            "taxe":true
+         },
+         {
+            "id":"12c nutrl 355ml",
+            "name":"nutrl 355ml",
+            "num":12,
+            "category":"12 canette 16",
+            "product":"beer",
+            "price":23.99,
+            "taxe":true
+         },
+         {
+            "id":"12c pilsner 355ml",
+            "name":"pilsner 355ml",
+            "num":12,
+            "category":"12 canette 16",
+            "product":"beer",
+            "price":17.49,
+            "taxe":true
+         },
+         {
+            "id":"12c ipa goose island 355ml",
+            "name":"ipa goose island 355ml",
+            "num":12,
+            "category":"12 canette 16",
+            "product":"beer",
+            "price":21.99,
+            "taxe":true
+         },
+         {
+            "id":"12c white claw 355ml",
+            "name":"white claw 355ml",
+            "num":12,
+            "category":"12 canette 16",
+            "product":"beer",
+            "price":24.99,
+            "taxe":true
+         },
+         
+         
+         {
+            "id":"6c busch 355ml",
+            "name":"busch 355ml",
+            "num":6,
+            "category":"6 canette 16",
+            "product":"beer",
+            "price":78,
+            "taxe":true
+         },
+         {
+            "id":"6c blue ribbon 355ml",
+            "name":"blue ribbon 355ml",
+            "num":6,
+            "category":"6 canette 16",
+            "product":"beer",
+            "price":78,
+            "taxe":true
+         },
+         {
+            "id":"6c rolling rock 355ml",
+            "name":"rolling rock 355ml",
+            "num":6,
+            "category":"6 canette 16",
+            "product":"beer",
+            "price":78,
+            "taxe":true
+         },
+         {
+            "id":"6c bleue dry 355ml",
+            "name":"bleue dry 355ml",
+            "num":6,
+            "category":"6 canette 16",
+            "product":"beer",
+            "price":78,
+            "taxe":true
+         },
+         {
+            "id":"6c budweiser 355ml",
+            "name":"budweiser 355ml",
+            "num":6,
+            "category":"6 canette 16",
+            "product":"beer",
+            "price":72,
+            "taxe":true
+         },
+         {
+            "id":"6c budlight 355ml",
+            "name":"budlight 355ml",
+            "num":6,
+            "category":"6 canette 16",
+            "product":"beer",
+            "price":72,
+            "taxe":true
+         },
+         {
+            "id":"6c budlight 473ml",
+            "name":"budlight 473ml",
+            "num":6,
+            "category":"6 canette 18",
+            "product":"beer",
+            "price":75,
+            "taxe":true
+         },
+         {
+            "id":"6c budweiser 473ml",
+            "name":"budweiser 473ml",
+            "num":6,
+            "category":"6 canette 18",
+            "product":"beer",
+            "price":75,
+            "taxe":true
+         },
+         {
+            "id":"6c budweiser zéro 355ml",
+            "name":"budweiser zéro 355ml",
+            "num":6,
+            "category":"6 canette 16",
+            "product":"beer",
+            "price":72,
+            "taxe":true
+         },
+         {
+            "id":"6c budlight chelada 473ml",
+            "name":"budlight chelada 473ml",
+            "num":6,
+            "category":"6 canette 16",
+            "product":"beer",
+            "price":19.49,
+            "taxe":true
+         },
+         {
+            "id":"6c budlight seltzer 355ml",
+            "name":"budlight seltzer 355ml",
+            "num":6,
+            "category":"6 canette 16",
+            "product":"beer",
+            "price":13.99,
+            "taxe":true
+         },
+         {
+            "id":"6c bleue 355ml",
+            "name":"bleue 355ml",
+            "num":6,
+            "category":"6 canette 16",
+            "product":"beer",
+            "price":72,
+            "taxe":true
+         },
+         {
+            "id":"6c heneiken 355ml",
+            "name":"heneiken 355ml",
+            "num":6,
+            "category":"6 canette 16",
+            "product":"beer",
+            "price":14.99,
+            "taxe":true
+         },
+         {
+            "id":"6c corona 355ml",
+            "name":"corona 355ml",
+            "num":6,
+            "category":"6 canette 16",
+            "product":"beer",
+            "price":14.99,
+            "taxe":true
+         },
+         {
+            "id":"6c beck's 355ml",
+            "name":"beck's 355ml",
+            "num":6,
+            "category":"6 canette 16",
+            "product":"beer",
+            "price":13.99,
+            "taxe":true
+         },
+         {
+            "id":"6c modelo 355ml",
+            "name":"modelo 355ml",
+            "num":6,
+            "category":"6 canette 16",
+            "product":"beer",
+            "price":12.99,
+            "taxe":true
+         },
+         {
+            "id":"6c stella artois 355ml",
+            "name":"stella artois 355ml",
+            "num":6,
+            "category":"6 canette 16",
+            "product":"beer",
+            "price":13.99,
+            "taxe":true
+         },
+         {
+            "id":"6c ultra michelob 355ml",
+            "name":"ultra michelob 355ml",
+            "num":6,
+            "category":"6 canette 16",
+            "product":"beer",
+            "price":11.99,
+            "taxe":true
+         },
+         {
+            "id":"6c cors light 355ml",
+            "name":"cors light 355ml",
+            "num":6,
+            "category":"6 canette 16",
+            "product":"beer",
+            "price":72,
+            "taxe":true
+         },
+         {
+            "id":"6c smirnoff 355ml",
+            "name":"smirnoff 355ml",
+            "num":6,
+            "category":"6 canette 16",
+            "product":"beer",
+            "price":13.99,
+            "taxe":true
+         },
+         {
+            "id":"6c white claw 355ml",
+            "name":"white claw 355ml",
+            "num":6,
+            "category":"6 canette 16",
+            "product":"beer",
+            "price":15.49,
+            "taxe":true
+         },
+         {
+            "id":"6c beach day every day 355ml",
+            "name":"beach day every day 355ml",
+            "num":6,
+            "category":"6 canette 16",
+            "product":"beer",
+            "price":15.49,
+            "taxe":true
+         },
+         {
+            "id":"6c nutrl 355ml",
+            "name":"nutrl 355ml",
+            "num":6,
+            "category":"6 canette 16",
+            "product":"beer",
+            "price":13.99,
+            "taxe":true
+         },
+         {
+            "id":"6c black label 355ml",
+            "name":"black label 355ml",
+            "num":6,
+            "category":"6 canette 16",
+            "product":"beer",
+            "price":9.99,
+            "taxe":true
+         },
+         
+         
+         {
+            "id":"4L quebon homo",
+            "name":"4L quebon homo 59",
+            "num":1,
+            "category":"lait 4L",
+            "product":"lait",
+            "price":8.76,
+            "taxe":false
+         },
+         {
+            "id":"4L quebon 2%",
+            "name":"4L quebon 2% 58",
+            "num":1,
+            "category":"lait 4L",
+            "product":"lait",
+            "price":8.44,
+            "taxe":false
+         },
+         {
+            "id":"2L quebon homo",
+            "name":"2L quebon homo 43",
+            "num":1,
+            "category":"lait 2L",
+            "product":"lait",
+            "price":4.85,
+            "taxe":false
+         },
+         {
+            "id":"2L quebon 2%",
+            "name":"2L quebon 2% 46",
+            "num":1,
+            "category":"lait 2L",
+            "product":"lait 2L",
+            "price":4.85,
+            "taxe":false
+         },
+         {
+            "id":"1L quebon homo",
+            "name":"1L quebon homo",
+            "num":1,
+            "category":"lait 1L",
+            "product":"lait",
+            "price":2.64,
+            "taxe":false
+         },
+         {
+            "id":"1L quebon 2%",
+            "name":"1L quebon 2%",
+            "num":1,
+            "category":"lait 1L",
+            "product":"lait",
+            "price":4.85,
+            "taxe":false
+         },
+         {
+            "id":"1L lactantia",
+            "name":"1L lactantia 56",
+            "num":1,
+            "category":"lait 1L",
+            "product":"lait",
+            "price":3.50,
+            "taxe":false
+         },
+         {
+            "id":"2L lactantia",
+            "name":"2L lactantia 57",
+            "num":1,
+            "category":"lait 2L",
+            "product":"lait",
+            "price":5.75,
+            "taxe":false
+         },
+         {
+            "id":"1L lactantia lactose free",
+            "name":"1L lactantia lactose free",
+            "num":1,
+            "category":"lait 1L",
+            "product":"lait",
+            "price":4.19,
+            "taxe":false
+         },
+         {
+            "id":"2L lactantia lactose free",
+            "name":"2L lactantia lactose free",
+            "num":1,
+            "category":"lait 2L",
+            "product":"lait",
+            "price":6.69,
+            "taxe":false
+         },
+         {
+            "id":"1L chocolate",
+            "name":"1L chocolate",
+            "num":1,
+            "category":"lait chocolat 1L",
+            "product":"lait",
+            "price":3.79,
+            "taxe":false
+         },
+         {
+            "id":"473ml chocolate",
+            "name":"473ml chocolate 37",
+            "num":1,
+            "category":"lait chocolat 473ml",
+            "product":"lait",
+            "price":2.48,
+            "taxe":true
+         },
+         
+         
+         {
+            "id":"10% gros creme lait",
+            "name":"10% gros creme lait",
+            "num":1,
+            "category":"creme",
+            "product":"lait",
+            "price":3.99,
+            "taxe":false
+         },
+         {
+            "id":"10% petit creme lait",
+            "name":"10% petit creme lait",
+            "num":1,
+            "category":"creme",
+            "product":"lait",
+            "price":2.45,
+            "taxe":false
+         },
+         {
+            "id":"15% gros creme lait",
+            "name":"15% gros creme lait",
+            "num":1,
+            "category":"creme",
+            "product":"lait",
+            "price":3.99,
+            "taxe":false
+         },
+         {
+            "id":"15% petit creme lait",
+            "name":"15% petit creme lait",
+            "num":1,
+            "category":"creme",
+            "product":"lait",
+            "price":2.45,
+            "taxe":false
+         },
+         
+         {
+            "id":"bacon",
+            "name":"bacon",
+            "num":1,
+            "category":"viande",
+            "product":"viande",
+            "price":7.89,
+            "taxe":false
+         },
+         {
+            "id":"oeuf",
+            "name":"oeuf",
+            "num":1,
+            "category":"oeuf",
+            "product":"oeuf",
+            "price":5.29,
+            "taxe":false
+         },
+         {
+            "id":"margarine",
+            "name":"margarine",
+            "num":1,
+            "category":"creme",
+            "product":"creme",
+            "price":4.39,
+            "taxe":false
+         },
+         {
+            "id":"beurre",
+            "name":"beurre",
+            "num":1,
+            "category":"creme",
+            "product":"creme",
+            "price":7.29,
+            "taxe":false
+         },
+         {
+            "id":"glace",
+            "name":"glace",
+            "num":1,
+            "category":"glace",
+            "product":"glace",
+            "price":3.99,
+            "taxe":false
+         },
+         
+         
+         {
+            "id":"1c NO2 473ml",
+            "name":"NO2 473ml",
+            "num":1,
+            "category":"1 canette 16",
+            "product":"energy drink",
+            "price":3.99,
+            "taxe":true
+         },
+         {
+            "id":"1c redrain 473ml",
+            "name":"redrain 473ml",
+            "num":1,
+            "category":"1 canette 16",
+            "product":"energy drink",
+            "price":2.49,
+            "taxe":true
+         },
+         {
+            "id":"1c rockstar 473ml",
+            "name":"rockstar alcool 473ml",
+            "num":1,
+            "category":"1 canette 18",
+            "product":"energy drink",
+            "price":3.59,
+            "taxe":true
+         },
+         {
+            "id":"1c rockstar sans alcool 473ml",
+            "name":"rockstar sans alcool 473ml",
+            "num":1,
+            "category":"1 canette 16",
+            "product":"energy drink",
+            "price":3.39,
+            "taxe":true
+         },
+         {
+            "id":"2c rockstar sans alcool 473ml",
+            "name":"rockstar sans alcool 473ml",
+            "num":2,
+            "category":"2 canette 16",
+            "product":"energy drink",
+            "price":5.49,
+            "taxe":true
+         },
+         {
+            "id":"1c monster 473ml",
+            "name":"monster 473ml",
+            "num":1,
+            "category":"1 canette 16",
+            "product":"energy drink",
+            "price":3.39,
+            "taxe":true
+         },
+         {
+            "id":"2c monster 473ml",
+            "name":"monster 473ml",
+            "num":2,
+            "category":"2 canette 16",
+            "product":"energy drink",
+            "price":5.49,
+            "taxe":true
+         },
+         {
+            "id":"1c redbull 250ml",
+            "name":"redbull 250ml",
+            "num":1,
+            "category":"1 canette 16",
+            "product":"energy drink",
+            "price":3.39,
+            "taxe":true
+         },
+         {
+            "id":"1c redbull 355ml",
+            "name":"redbull 355ml",
+            "num":1,
+            "category":"1 canette 16",
+            "product":"energy drink",
+            "price":3.79,
+            "taxe":true
+         },
+         {
+            "id":"1c redbull 473ml",
+            "name":"redbull 473ml",
+            "num":1,
+            "category":"1 canette 16",
+            "product":"energy drink",
+            "price":4.79,
+            "taxe":true
+         },
+         
+         {
+            "id":"1b boisson gaz 2L",
+            "name":"boisson gaz 2L",
+            "num":1,
+            "category":"1 canette 16",
+            "product":"boisson gaz",
+            "price":39,
+            "taxe":false
+         },
+         {
+            "id":"1b boisson gaz 710ml",
+            "name":"boisson gaz 710ml",
+            "num":1,
+            "category":"1 canette 16",
+            "product":"boisson gaz",
+            "price":39,
+            "taxe":false
+         },
+         
+         {
+            "id":"pain",
+            "name":"pain",
+            "num":1,
+            "category":"non taxable",
+            "product":"pain",
+            "price":4.59,
+            "taxe":false
+         },
+         {
+            "id":"pain hotdog",
+            "name":"pain hotdog",
+            "num":1,
+            "category":"non taxable",
+            "product":"pain",
+            "price":5.39,
+            "taxe":false
+         },
+         {
+            "id":"pain hamburger",
+            "name":"pain hamburger",
+            "num":1,
+            "category":"non taxable",
+            "product":"pain",
+            "price":5.39,
+            "taxe":false
+         },
+         {
+            "id":"1b starbuck 405ml",
+            "name":"starbuck 405ml",
+            "num":1,
+            "category":"caffé",
+            "product":"caffé",
+            "price":3.99,
+            "taxe":true
+         },
+         {
+            "id":"1b starbuck 281ml",
+            "name":"starbuck 281ml",
+            "num":1,
+            "category":"caffé",
+            "product":"caffé",
+            "price":2.99,
+            "taxe":true
+         },
+         
+         {
+            "id":"1s chips petit 55g-84g",
+            "name":"chips 55g-84g",
+            "num":1,
+            "category":"petit chips",
+            "product":"chips",
+            "price":2.19,
+            "taxe":true
+         },
+         {
+            "id":"1s chips doritos gros",
+            "name":"chips doritos gros",
+            "num":1,
+            "category":"gros chips",
+            "product":"chips",
+            "price":5.99,
+            "taxe":true
+         },
+         {
+            "id":"1s chips tostitos gros",
+            "name":"chips tostitos gros",
+            "num":1,
+            "category":"gros chips",
+            "product":"chips",
+            "price":5.99,
+            "taxe":true
+         },
+         {
+            "id":"1s chips Miss Vickies gros",
+            "name":"chips Miss Vickies gros",
+            "num":1,
+            "category":"gros chips",
+            "product":"chips",
+            "price":5.99,
+            "taxe":true
+         },
+         {
+            "id":"1s chips Rold Gold gros",
+            "name":"chips Rold Gold gros",
+            "num":1,
+            "category":"gros chips",
+            "product":"chips",
+            "price":5.99,
+            "taxe":true
+         },
+         {
+            "id":"1s chips Smartfood gros",
+            "name":"chips Smartfood gros",
+            "num":1,
+            "category":"gros chips",
+            "product":"chips",
+            "price":5.99,
+            "taxe":true
+         },
+         {
+            "id":"1s chips Cheetos gros",
+            "name":"chips Cheetos gros",
+            "num":1,
+            "category":"gros chips",
+            "product":"chips",
+            "price":5.99,
+            "taxe":true
+         },
+         {
+            "id":"1s chips Lays gros",
+            "name":"chips Lays gros",
+            "num":1,
+            "category":"gros chips",
+            "product":"chips",
+            "price":4.79,
+            "taxe":true
+         },
+         {
+            "id":"1s chips Ruffles gros",
+            "name":"chips Ruffles gros",
+            "num":1,
+            "category":"gros chips",
+            "product":"chips",
+            "price":4.79,
+            "taxe":true
+         },
+         {
+            "id":"1s chips Munchos gros",
+            "name":"chips Munchos gros",
+            "num":1,
+            "category":"gros chips",
+            "product":"chips",
+            "price":4.79,
+            "taxe":true
+         },
+         {
+            "id":"1s chips Sun chips gros",
+            "name":"chips Sun chips gros",
+            "num":1,
+            "category":"gros chips",
+            "product":"chips",
+            "price":4.79,
+            "taxe":true
+         },
+         {
+            "id":"1s chips Fritos gros",
+            "name":"chips Fritos gros",
+            "num":1,
+            "category":"gros chips",
+            "product":"chips",
+            "price":4.79,
+            "taxe":true
+         },
+         {
+            "id":"1s chips Humpty dumpty gros",
+            "name":"chips Humpty dumpty gros",
+            "num":1,
+            "category":"gros chips",
+            "product":"chips",
+            "price":5.29,
+            "taxe":true
+         },
+         {
+            "id":"1s chips Old dutch gros",
+            "name":"chips Old dutch gros",
+            "num":1,
+            "category":"gros chips",
+            "product":"chips",
+            "price":4.29,
+            "taxe":true
+         },
+         {
+            "id":"pot sauce Tostitos Salsa",
+            "name":"sauce Tostitos Salsa",
+            "num":1,
+            "category":"chips sauce",
+            "product":"sauce",
+            "price":4.79,
+            "taxe":false
+         },
+         {
+            "id":"pot sauce Doritos",
+            "name":"sauce Doritos",
+            "num":1,
+            "category":"chips sauce",
+            "product":"sauce",
+            "price":4.99,
+            "taxe":false
+         }
+   
+  ]
