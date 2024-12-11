@@ -1,16 +1,9 @@
 import { useState, useEffect } from "react";
 import TextField from "@mui/material/TextField";
 import "./ListGroup.css";
+import Product from "../types/Product";
+import Products from "./products";
 
-interface Product {
-  id: string;
-  name: string;
-  num: number;
-  category: string;
-  product: string;
-  price: number;
-  taxe: boolean;
-}
 
 function ListGroup() {
   const [inputText, setInputText] = useState("");
@@ -58,13 +51,7 @@ function ListGroup() {
           marginRight: "auto",
         }}
       />
-      <ul className="list-group list-group-flush overflow-container">
-        {filteredData.map((product: Product) => (
-          <li key={product.id} className="list-group-item">
-            {product.id} - {product.category} - ${product.price}
-          </li>
-        ))}
-      </ul>
+      <Products data={filteredData}/>
     </div>
   );
 }
