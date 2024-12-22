@@ -1,5 +1,6 @@
 .header-section {
-    height: 150px;
+    height: 100px;
     text-align: center;
-    background-color: red;
+    background-color: rgb(245, 105, 105);
+    font-size: 30px;
 }

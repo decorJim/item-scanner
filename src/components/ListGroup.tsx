@@ -9,6 +9,16 @@ function ListGroup() {
   const [inputText, setInputText] = useState("");
   const [data, setData] = useState<Product[]>([]);
 
+  const [isSearchBarVisible, setSearchBarVisibility] = useState(true);
+
+  const hideSearchBar = () => {
+    setSearchBarVisibility(false);
+  }
+
+  const showSearchBar = () => {
+    setSearchBarVisibility(true);
+  }
+
   const inputHandler = (e: React.ChangeEvent<HTMLInputElement>) => {
     // Convert input text to lowercase
     setInputText(e.target.value.toLowerCase());
@@ -39,7 +49,8 @@ function ListGroup() {
 
   return (
     <div className="outer-container">
-      <TextField
+
+      {isSearchBarVisible && (<TextField
         id="outlined-basic"
         variant="outlined"
         fullWidth
@@ -51,7 +62,8 @@ function ListGroup() {
           marginRight: "auto",
         }}
       />
-      <Products data={filteredData}/>
+      )}
+      <Products data={filteredData} hideSearchBar={hideSearchBar} showSearchBar={showSearchBar}/>
     </div>
   );
 }
