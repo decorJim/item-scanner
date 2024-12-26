@@ -16,11 +16,20 @@
     padding: 0; /* Optional: Reset padding */
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid #ddd; /* Optional: Add a border */
+    border: 1px solid #dddddd; /* Optional: Add a border */
     border-radius: 5px; /* Optional: Add rounded corners */
-    background-color: #fff; /* Optional: Set background color */
+    background-color: #ffffff; /* Optional: Set background color */
 }
 
 .list-group-item {
     font-size: large;
+}
+
+.barcode-icon {
+    font-size: 100px;
+}
+
+.barcode-icon:hover {
+    background-color: rgb(222, 214, 214);
+    cursor: pointer;
 }

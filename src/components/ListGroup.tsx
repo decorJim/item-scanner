@@ -3,7 +3,7 @@ import TextField from "@mui/material/TextField";
 import "./ListGroup.css";
 import Product from "../types/Product";
 import Products from "./products";
-
+import { FaBarcode } from "react-icons/fa";
 
 function ListGroup() {
   const [inputText, setInputText] = useState("");
@@ -63,6 +63,8 @@ function ListGroup() {
         }}
       />
       )}
+      <FaBarcode className="barcode-icon" />
+      detect barcode
       <Products data={filteredData} hideSearchBar={hideSearchBar} showSearchBar={showSearchBar}/>
     </div>
   );
