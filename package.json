@@ -13,11 +13,14 @@
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@mui/material": "^5.14.3",
+    "@zxing/browser": "^0.1.5",
+    "@zxing/library": "^0.21.3",
     "barcode-react-scanner": "^1.2.0",
     "bootstrap": "^5.3.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-icons": "^5.4.0"
+    "react-icons": "^5.4.0",
+    "react-webcam": "^7.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",

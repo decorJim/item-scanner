@@ -8,6 +8,13 @@
     margin-right: auto;
 }
 
+.search-bar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+}
+
 .overflow-container {
     max-height: 800px; /* Set a maximum height */
     max-width: 500px;
@@ -26,7 +33,7 @@
 }
 
 .barcode-icon {
-    font-size: 100px;
+    font-size: 76px;
 }
 
 .barcode-icon:hover {
