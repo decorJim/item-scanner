@@ -7,6 +7,7 @@ interface ProductDetailsProps {
 }
 
 const ProductDetails: React.FC<ProductDetailsProps> = ({ product, onClose }) => {
+  
     return (
         <div className="product-details">
           <br></br>

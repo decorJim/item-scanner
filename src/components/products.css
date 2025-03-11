@@ -1,8 +1,30 @@
 .product-item {
     background-color: rgb(236, 243, 243) !important;
     cursor: pointer;
+    width: 650px;
+    align-items: center;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .product-item:hover {
     background-color: rgb(159, 158, 158) !important;
+}
+
+.product-preview {
+    display: inline-block;
+    align-items: center;
+    position: bottom;
+    margin: 10px;
+    width: 500px;
+    height: 21;
+}
+
+.edit-button {
+    display: inline;
+}
+
+.delete-button {
+    display: inline;
+    float: right;
 }
