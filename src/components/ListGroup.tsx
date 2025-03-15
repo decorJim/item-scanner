@@ -165,13 +165,16 @@ function ListGroup() {
             }}
           />
         )}
+
         <div>
-          <FaBarcode className="barcode-icon" onClick={toggleScanner} />
+          { isSearchBarVisible && (<FaBarcode className="barcode-icon" onClick={toggleScanner} />)}
         </div>
 
-        <button onClick={toggleWebcamScanner} style={{ marginLeft: '1rem' }}>
-          {isWebcamScannerActive ? 'Stop Webcam Scanner' : 'Start Webcam Scanner'}
-        </button>
+        { isSearchBarVisible &&  ( 
+          <button onClick={toggleWebcamScanner} style={{ marginLeft: '1rem' }}>
+              {isWebcamScannerActive ? 'Stop Webcam Scanner' : 'Start Webcam Scanner'}
+          </button>
+        )}
 
         {/* Conditionally render the webcam scanner */}
         {isWebcamScannerActive && (
