@@ -10,7 +10,7 @@ permissions:
   contents: write
   pages: write
   id-token: write
-  actions: write  # Added permissions
+  actions: write
 
 concurrency:
   group: "pages"
@@ -32,11 +32,14 @@ jobs:
         run: npm install
 
       - name: Build React app
-        run: npm run build
+        run: |
+          npm run build
+          touch build/.nojekyll  # Disable Jekyll
 
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4.5.0  # Updated version
+        uses: JamesIves/github-pages-deploy-action@v4.5.0
         with:
           branch: gh-pages
           folder: build
-          token: ${{ secrets.GITHUB_TOKEN }}  # Replaced with GITHUB_TOKEN
+          clean: true
+          token: ${{ secrets.GITHUB_TOKEN }}
