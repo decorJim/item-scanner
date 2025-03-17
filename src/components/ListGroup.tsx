@@ -95,6 +95,7 @@ function ListGroup() {
       })
       .catch((err: any) => {
         // Decoding error or no barcode found
+        console.error(err)
       });
   }, [barcode]);
 
