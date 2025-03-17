@@ -1,15 +1,16 @@
-name: Deploy to GitHub Pages
+name: Deploy item-scanner to GitHub Pages
 
 on:
   push:
     branches:
-      - main  # Trigger on pushes to the `main` branch
-  workflow_dispatch:  # Allows manual triggering from GitHub Actions tab
+      - main
+  workflow_dispatch:
 
 permissions:
   contents: read
   pages: write
   id-token: write
+  actions: write  # Added permissions
 
 concurrency:
   group: "pages"
@@ -19,35 +20,23 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      # Step 1: Check out the repository
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # Step 2: Set up Node.js environment and install dependencies
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '19.9.0'  # Use your desired Node.js version
+          node-version: '19.9.0'
 
       - name: Install dependencies
         run: npm install
 
-      # Step 3: Build the React app
       - name: Build React app
         run: npm run build
 
-      - name: Check GitHub Token Permissions
-        run: |
-            curl -H "Authorization: token ${{ secrets.CUSTOM_TOKEN }}" \
-                 -H "Accept: application/vnd.github.v3+json" \
-                 https://api.github.com/repos/${{ github.repository }}
-
-
-      # Step 4: Deploy the build to GitHub Pages
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4.4.0
+        uses: JamesIves/github-pages-deploy-action@v4.5.0  # Updated version
         with:
-          branch: gh-pages  # The branch to deploy to (can also be `main` or `gh-pages`)
-          folder: build  # The folder that contains the build output from React (e.g., `build`)
-          token: ${{ secrets.CUSTOM_TOKEN }}  # Auto-provided GitHub token for authentication
-
+          branch: gh-pages
+          folder: build
+          token: ${{ secrets.GITHUB_TOKEN }}  # Replaced with GITHUB_TOKEN
