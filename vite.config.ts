@@ -8,5 +8,6 @@ export default defineConfig({
   build: {
     outDir: 'build', // This ensures that the output is directed to the 'build' folder
     assetsDir: 'assets',
+    emptyOutDir: true,  // Add this to clean the build folder
   },
 })
