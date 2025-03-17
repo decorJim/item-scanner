@@ -35,6 +35,7 @@ jobs:
         run: |
           npm run build
           touch build/.nojekyll  # Disable Jekyll
+          ls -la build/
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4.5.0
