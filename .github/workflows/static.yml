@@ -43,4 +43,5 @@ jobs:
           branch: gh-pages
           folder: build
           clean: true
+          force: true
           token: ${{ secrets.GITHUB_TOKEN }}
