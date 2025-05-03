@@ -1,19 +1,22 @@
 import { useState, useEffect, useCallback, useRef } from "react";
-import TextField from "@mui/material/TextField";
+
 import "./ListGroup.css";
+
+import TextField from "@mui/material/TextField";
 import Product from "../types/Product";
 import Products from "./products";
-import { FaBarcode } from "react-icons/fa";
-import BarCodeScanner from 'barcode-react-scanner';
+
+import { Button } from 'primereact/button';
 
 import Webcam from 'react-webcam';
 import { BrowserMultiFormatReader } from '@zxing/library';
 
 function ListGroup() {
-  // 1. Define higher-resolution constraints
+
+  // small webcam constrains
   const videoConstraints = {
     facingMode: 'environment',
-    width: { ideal: 3000 },   // or any resolution you prefer
+    width: { ideal: 3000 },  
     height: { ideal: 900 },
   };
 
@@ -21,20 +24,21 @@ function ListGroup() {
   const [data, setData] = useState<Product[]>([]);
   const [isSearchBarVisible, setSearchBarVisibility] = useState(true);
   const [barcode, setBarcode] = useState<string>('');
-  const [isScanning, setIsScanning] = useState(false);
 
   // Toggle for the webcam-based scanner
   const [isWebcamScannerActive, setWebcamScannerActive] = useState(false);
 
+  // small used webcam
   const webcamRef = useRef<any>(null);
+
   const canvasRef = useRef<any>(null);
   const codeReaderRef = useRef<any>(null);
   const scanIntervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
+  /* show or hide searchbar */
   const hideSearchBar = () => {
     setSearchBarVisibility(false);
   };
-
   const showSearchBar = () => {
     setSearchBarVisibility(true);
   };
@@ -130,21 +134,6 @@ function ListGroup() {
     product.name.toLowerCase().includes(inputText)
   );
 
-  const handleBarcodeUpdate = (err: any, res: any) => {
-    // if a code is detected
-    if (res) {
-      setBarcode(res.getText());
-      setIsScanning(false);
-    }
-    if (err) {
-      console.error("Error scanning barcode:", err);
-    }
-  };
-
-  const toggleScanner = () => {
-    setIsScanning((prev) => !prev);
-  };
-
   const toggleWebcamScanner = () => {
     setWebcamScannerActive((prev) => !prev);
   };
@@ -153,6 +142,7 @@ function ListGroup() {
     <div className="outer-container">
       <div className="search-bar-container">
         {isSearchBarVisible && (
+
           <TextField
             id="outlined-basic"
             variant="outlined"
@@ -160,54 +150,54 @@ function ListGroup() {
             onChange={inputHandler}
             label="Search"
             sx={{
-              maxWidth: "500px",
-              marginLeft: "auto",
-              marginRight: "auto",
+              maxWidth: "612px",
+              marginLeft: "144px",
+              marginRight: "24px",
             }}
           />
         )}
 
-        <div>
-          { isSearchBarVisible && (<FaBarcode className="barcode-icon" onClick={toggleScanner} />)}
-        </div>
-
         { isSearchBarVisible &&  ( 
-          <button onClick={toggleWebcamScanner} style={{ marginLeft: '1rem' }}>
-              {isWebcamScannerActive ? 'Stop Webcam Scanner' : 'Start Webcam Scanner'}
-          </button>
-        )}
-
-        {/* Conditionally render the webcam scanner */}
-        {isWebcamScannerActive && (
-          <div style={{ position: 'relative', marginTop: '1rem' }}>
-            {/* 3. Pass the new videoConstraints here */}
-            <Webcam
-              ref={webcamRef}
-              audio={false}
-              screenshotFormat="image/png"
-              videoConstraints={videoConstraints}
-              style={{ width: '100%', maxWidth: '800px' }}
-            />
-            <div
-              style={{
-                position: 'absolute',
-                top: '20%',
-                left: '25%',
-                width: '50%',
-                height: '30%',
-                border: '2px solid red',
-                pointerEvents: 'none',
-              }}
-            />
-            <canvas ref={canvasRef} style={{ display: 'none' }} />
-          </div>
+          <Button onClick={toggleWebcamScanner} className="webcam-button">
+              {isWebcamScannerActive ? 'Stop Scanner' : 'Start Scanner'}
+          </Button>
         )}
       </div>
 
-      {/* Display Scanned Barcode */}
-      {barcode && <p>Scanned Barcode: {barcode}</p>}
+      {isWebcamScannerActive && (
+          <div className="display-cam-zone">
+              <div className="webcam-wrapper"> 
+                  <div style={{ position: 'static', marginTop: '1rem' }}>
+                  {/* 3. Pass the new videoConstraints here */}
+                    <Webcam
+                      ref={webcamRef}
+                      audio={false}
+                      screenshotFormat="image/png"
+                      videoConstraints={videoConstraints}
+                      style={{ width: '100%', maxWidth: '800px' }}
+                    />
 
-      {isScanning && <BarCodeScanner onUpdate={handleBarcodeUpdate} />}
+                    {/* small red rectangle to focus on barcode */}
+                    <div
+                      style={{
+                        position: 'absolute',
+                        top: '20%',
+                        left: '25%',
+                        width: '50%',
+                        height: '30%',
+                        border: '2px solid red',
+                        pointerEvents: 'none',
+                      }}
+                    />
+              </div>
+              <canvas ref={canvasRef} style={{ display: 'none' }} />
+            </div>
+          </div> )}
+      
+       {/* Display Scanned Barcode */}
+       {isWebcamScannerActive && barcode && <p>Scanned Barcode: {barcode}</p>}
+
+      <br></br>
 
       <Products data={filteredData} hideSearchBar={hideSearchBar} showSearchBar={showSearchBar} />
     </div>

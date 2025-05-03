@@ -2,6 +2,7 @@ import { useState } from "react";
 import Product from "../types/Product";
 import ProductDetails from "./productDetails";
 import "./products.css";
+import { Button } from 'primereact/button';
 
 import Icon from "react-crud-icons";
 import "react-crud-icons/dist/css/react-crud-icons.css";
@@ -44,7 +45,7 @@ const Products: React.FC<ProductListProps> = ({ data, hideSearchBar, showSearchB
   return (
     <ul className="list-group list-group-flush overflow-container">
       { data.map((product: Product) => (
-        <li key={product.id} className="list-group-item product-item"
+        <Button text raised key={product.id} className="p-button-lg product-item"
           onClick={
             () => { 
               setSelectedProduct(product);
@@ -61,7 +62,9 @@ const Products: React.FC<ProductListProps> = ({ data, hideSearchBar, showSearchB
             name="delete"
             className="delete-button"
           />
-        </li>
+
+        </Button>
+
       ))}
     </ul>
   );

@@ -12,7 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 700px;
+    width: 900px;
 }
 
 .overflow-container {
@@ -28,15 +28,20 @@
     background-color: #ffffff; /* Optional: Set background color */
 }
 
-.list-group-item {
-    font-size: large;
+.webcam-button {
+    height: 56px;
+    width: 120px;
 }
 
-.barcode-icon {
-    font-size: 76px;
+.display-cam-zone {
+    width: 300px;
+    height: 80px;
+    display: relative;
 }
 
-.barcode-icon:hover {
-    background-color: rgb(222, 214, 214);
-    cursor: pointer;
+.webcam-wrapper {
+    position: relative;    
+    margin-top: 1rem;
+    width: 100%;
+    max-width: 800px;
 }
