@@ -24,6 +24,10 @@
     margin-bottom: 10px;
     padding: 1rem 1.5rem;
     border-radius: 10px;
+    min-height: 70px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    color: #333333;
 }
 
 .modern-button {
