@@ -1,24 +1,31 @@
 
 
 .product-preview {
-    display: inline-block;
-    align-items: center;
-    position: bottom;
-    margin: 10px;
-    width: 500px;
-    height: 21;
+    flex-grow: 1;
+    margin-right: 1rem;
+    font-size: 1.1rem;
+    text-align: left;
 }
 
 .edit-button {
     display: inline;
+    margin-right: 0.5rem;
 }
 
 .delete-button {
     display: inline;
-    float: right;
 }
 
 .product-item {
-    width: 610px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin-bottom: 10px;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+}
+
+.modern-button {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
