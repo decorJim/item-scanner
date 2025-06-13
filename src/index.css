@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  /* Set the convenience store image as a fixed background */
+  background: url('/convenience-store.svg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Ensure app content stacks above the background */
+#root {
+  position: relative;
+  z-index: 1;
+}
