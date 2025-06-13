@@ -1,6 +1,23 @@
 .header-section {
     height: 80px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: rgb(114, 105, 245);
     font-size: 30px;
+}
+
+.logo {
+    height: 50px;
+    margin-right: 8px;
+    animation: spin 4s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
