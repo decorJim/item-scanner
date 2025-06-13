@@ -45,7 +45,7 @@ const Products: React.FC<ProductListProps> = ({ data, hideSearchBar, showSearchB
   return (
     <ul className="list-group list-group-flush overflow-container">
       { data.map((product: Product) => (
-        <Button text raised key={product.id} className="p-button-lg product-item"
+        <Button rounded raised key={product.id} className="p-button-lg product-item modern-button"
           onClick={
             () => { 
               setSelectedProduct(product);
